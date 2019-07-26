@@ -7,8 +7,11 @@
       <div class="card-header">
         <h5>注册</h5>
       </div>
+
       <div class="card-body">
         <form method="POST" action="{{ route('users.store') }}">
+          {{ csrf_field() }}
+
           <div class="form-group">
             <label for="name">名稱：</label>
             <input type="text" name="name" class="form-control" value="{{ old('name') }}">
@@ -18,10 +21,12 @@
             <label for="email">郵箱：</label>
             <input type="text" name="email" class="form-control" value="{{ old('email') }}">
           </div>
+
           <div class="form-group">
             <label for="password">密碼：</label>
             <input type="password" name="password" class="form-control" value="{{ old('password') }}">
           </div>
+
           <div class="form-group">
             <label for="password_confirmation">確認密碼：</label>
             <input type="password" name="password_confirmation" class="form-control" value="{{ old('password_confirmation') }}">
