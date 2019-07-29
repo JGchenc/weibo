@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use Auth;
 
 class SessionsController extends Controller
@@ -22,6 +23,7 @@ class SessionsController extends Controller
             session()->flash('success', '欢迎回来！');//记住我
             $fallback = route('users.show',Auth::user());
             return redirect()->intended($fallback);//登录后返回原来用户访问的界面
+
         } else {
             session()->flash('danger', '很抱歉，您的邮箱和密码不匹配');
             return redirect()->back()->withInput();
