@@ -1,9 +1,17 @@
 @extends('layouts.default')
+<<<<<<< HEAD
 @section('title', '登录')
 
 @section('content')
   <div class="offset-md-2 col-md-8">
     <div class="card ">
+=======
+@section('title','登录')
+
+@section('content')
+  <div class="offset-md-2 col-md-8">
+    <div class="card">
+>>>>>>> login-logout
       <div class="card-header">
         <h5>登录</h5>
       </div>
@@ -35,7 +43,11 @@
 
         <hr>
 
+<<<<<<< HEAD
         <p>还没账号？<a href="{{ route('signup') }}">现在注册！</a></p>
+=======
+        <p>还没账号？<a href="{{ route('signup') }}">现在注册</a> </p>
+>>>>>>> login-logout
       </div>
     </div>
   </div>
