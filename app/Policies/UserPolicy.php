@@ -25,4 +25,10 @@ class UserPolicy
 //用户通过授权，可以接着进行下一个操作。
 //如果 id 不相同的话，
 //将抛出 403 异常信息来拒绝访问。
+
+    public function destroy(User $currentUser,User $user)
+    {
+        //只有当前用户拥有管理员权限且删除的用户不是自己时才显示链接
+        return $currentUser->is_admin && $currentUser->id !== $user->id;
+    }
 }
