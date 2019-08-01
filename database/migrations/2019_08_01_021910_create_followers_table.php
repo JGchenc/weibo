@@ -20,7 +20,6 @@ class CreateFollowersTable extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
