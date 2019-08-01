@@ -61,10 +61,10 @@ class User extends Authenticatable
     public function feed()
     {
         $user_ids = $this->followings->pluck('id')->toArray();
-        array_push($user_ids,$this->id);
-        return Status::whereIn('user_id',$user_ids)
+        array_push($user_ids, $this->id);
+        return Status::whereIn('user_id', $user_ids)
             ->with('user')
-            ->orderBy('created_at','desc');
+            ->orderBy('created_at', 'desc');
         //通过 followings 方法取出所有关注用户的信息，再借助 pluck 方法将 id 进行分离并赋值给 user_ids；
         //将当前用户的 id 加入到 user_ids 数组中；
         //使用 Laravel 提供的 查询构造器 whereIn 方法取出所有用户的微博动态并进行倒序排序；
