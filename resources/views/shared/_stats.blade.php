@@ -10,7 +10,7 @@
   </strong>
   粉丝
 </a>
-<a href="{{ route('users.show') }}">
+<a href="{{ route('users.show',$user->id) }}">
   <strong id="statuses" class="stat">
     {{ $user->statuses()->count() }}
   </strong>
