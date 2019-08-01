@@ -5,11 +5,6 @@ use App\Models\User;
 
 class FollowersTableSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         $users = User::all();
