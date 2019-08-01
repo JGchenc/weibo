@@ -19,6 +19,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Models/User.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,11 +39,21 @@
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_31_085801_create_followers_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="e#7#45#0#PHP" expanded="true" />
+>>>>>>> following-users
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,11 +61,21 @@
               <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="717">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <element signature="e#30#70#0#PHP" expanded="true" />
+>>>>>>> following-users
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/users/show_follow.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,6 +139,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> following-users
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -148,6 +171,10 @@
         <option value="$PROJECT_DIR$/database/seeds/StatusesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/StatusFactory.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_status_form.blade.php" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" />
+>>>>>>> following-users
         <option value="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" />
         <option value="$PROJECT_DIR$/app/Models/Status.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" />
@@ -155,6 +182,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" />
         <option value="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" />
         <option value="$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/PhpStorm/ch-0/191.7479.51.vmoptions" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/database/migrations/2019_08_01_004512_create_followers_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_08_01_021910_create_followers_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/FollowersTableSeeder.php" />
@@ -169,6 +197,9 @@
         <option value="$PROJECT_DIR$/resources/views/users/_follow_form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FollowersController.php" />
+=======
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_31_085801_create_followers_table.php" />
+>>>>>>> following-users
         <option value="$PROJECT_DIR$/app/Models/User.php" />
       </list>
     </option>
@@ -291,6 +322,7 @@
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,18 +331,30 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+>>>>>>> following-users
             </path>
             <path>
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+>>>>>>> following-users
             </path>
             <path>
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Policies" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+>>>>>>> following-users
             </path>
             <path>
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +393,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -385,12 +432,20 @@
       <workItem from="1564392041739" duration="325000" />
       <workItem from="1564534223900" duration="19006000" />
       <workItem from="1564560955891" duration="273000" />
+<<<<<<< HEAD
       <workItem from="1564620151132" duration="16551000" />
+=======
+      <workItem from="1564561262830" duration="3918000" />
+>>>>>>> following-users
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="38583000" />
+=======
+    <option name="totallyTimeSpent" value="25950000" />
+>>>>>>> following-users
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -568,6 +623,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> following-users
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -643,6 +708,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_01_004512_create_followers_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -762,14 +828,27 @@
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_31_085801_create_followers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="e#7#45#0#PHP" expanded="true" />
+>>>>>>> following-users
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="299">
           <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+=======
+        <state relative-caret-position="717">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+>>>>>>> following-users
           <folding>
             <element signature="e#30#70#0#PHP" expanded="true" />
           </folding>
